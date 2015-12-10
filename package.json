@@ -27,10 +27,7 @@
   },
   "homepage": "https://github.com/pushrocks/gulp-bootstrap",
   "dependencies": {
-    "pushrocks": "^1.0.18"
   },
   "devDependencies": {
-    "gulp": "3.9.0",
-    "gulp-typescript": "2.9.2"
   }
 }
