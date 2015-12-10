@@ -2,7 +2,7 @@
 . ~/.nvm/nvm.sh
 . ~/.profile
 . ~/.bashrc
-nvm use 4.2.3
+nvm use default
 node -v
 npm install mojoio -g
 npm install tsd -g
