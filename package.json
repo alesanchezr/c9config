@@ -27,12 +27,12 @@
   },
   "homepage": "https://github.com/pushrocks/gulp-bootstrap",
   "dependencies": {
-    "beautylog": "^1.0.7",
+    "beautylog": "1.0.7",
     "smartcli": "0.0.11"
   },
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-typescript": "^2.10.0",
-    "pushrocks": "^1.0.25"
+    "gulp": "3.9.0",
+    "gulp-typescript": "2.10.0",
+    "pushrocks": "1.0.25"
   }
 }
