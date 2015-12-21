@@ -1,6 +1,6 @@
 {
   "name": "c9config",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "configures a standard cloud9 workspace using npm",
   "main": "index.js",
   "scripts": {
