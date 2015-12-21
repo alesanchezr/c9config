@@ -1,5 +1,5 @@
 # c9config
-offers data about workspace in an accessile JS object
+offers data about current C9.io workspace
 
 # Project Status
 [![Build Status](https://travis-ci.org/GitZoneTools/c9config.svg?branch=master)](https://travis-ci.org/GitZoneTools/c9config)
