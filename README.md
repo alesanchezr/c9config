@@ -22,10 +22,10 @@ c9config.workspace // an object that holds the important worspace information
 /* ----------- object currently looks like this ------
  *  {
  *      isC9: true,
- *      name: 'undefined',
- *      owner: 'lossless',
- *      ideUrl: 'https://ide.c9.io/lossless/undefined',
- *      serveUrl: 'https://undefined-lossless.c9user.io'
+ *      name: 'workspacename',
+ *      owner: 'username',
+ *      ideUrl: 'https://ide.c9.io/username/workspacename',
+ *      serveUrl: 'https://workspacename-username.c9user.io'
  *  }
  */
 ```
