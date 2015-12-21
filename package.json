@@ -13,19 +13,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pushrocks/gulp-bootstrap.git"
+    "url": "https://github.com/GitZoneTools/c9config.git"
   },
   "keywords": [
     "json",
     "jade",
     "template"
   ],
-  "author": "Smart Coordination GmbH <office@push.rocks> (https://push.rocks)",
+  "author": "Lossless Digital <office@git.zone> (https://git.zone)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pushrocks/gulp-bootstrap/issues"
+    "url": "https://github.com/GitZoneTools/c9config/issues"
   },
-  "homepage": "https://github.com/pushrocks/gulp-bootstrap",
+  "homepage": "https://github.com/GitZoneTools/c9config",
   "dependencies": {
     "beautylog": "1.0.7",
     "smartcli": "0.0.11"
