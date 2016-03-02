@@ -2,3 +2,8 @@
 .c9/
 node_modules
 node-debug.log
+
+docs/
+ts/typings/
+ts/**/*.js
+ts/**/*.js.map
