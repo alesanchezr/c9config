@@ -1,0 +1,7 @@
+{
+  "ambientDependencies": {
+    "colors": "github:DefinitelyTyped/DefinitelyTyped/colors/colors.d.ts#40c60850ad6c8175a62d5ab48c4e016ea5b3dffe",
+    "mocha": "github:DefinitelyTyped/DefinitelyTyped/mocha/mocha.d.ts#d6dd320291705694ba8e1a79497a908e9f5e6617",
+    "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#efa0c1196d7280640e624ac1e7fa604502e7bd63"
+  }
+}

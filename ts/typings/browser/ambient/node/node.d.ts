@@ -1,3 +1,5 @@
+// Compiled using typings@0.6.9
+// Source: https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/efa0c1196d7280640e624ac1e7fa604502e7bd63/node/node.d.ts
 // Type definitions for Node.js v0.12.0
 // Project: http://nodejs.org/
 // Definitions by: Microsoft TypeScript <http://typescriptlang.org>, DefinitelyTyped <https://github.com/borisyankov/DefinitelyTyped>

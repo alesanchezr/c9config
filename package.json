@@ -2,14 +2,9 @@
   "name": "c9config",
   "version": "0.0.17",
   "description": "configures a standard cloud9 workspace using npm",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "(cd ts/compile/ && node compile.js) && (node test.js)",
-    "install": "node cli.js",
-    "reinstall": "(rm -r node_modules && npm install)",
-    "release": "(npm test) && (git pull origin master && npm version patch && git push origin master && git checkout release && git merge master && git push origin release && git checkout master)",
-    "update": "(git checkout master && git pull origin master) && (npm install)",
-    "upgrade": "(npm run update) && (ncu upgradeAll && npm install)"
+    "test": "(npmts)"
   },
   "repository": {
     "type": "git",
@@ -20,19 +15,17 @@
     "jade",
     "template"
   ],
-  "author": "Lossless Digital <office@git.zone> (https://git.zone)",
+  "author": "Lossless GmbH <office@lossless.com> (https://lossless.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/GitZoneTools/c9config/issues"
   },
   "homepage": "https://github.com/GitZoneTools/c9config",
   "dependencies": {
-    "beautylog": "1.0.7",
+    "beautylog": "3.1.2",
     "smartcli": "0.0.11"
   },
   "devDependencies": {
-    "gulp": "3.9.0",
-    "gulp-typescript": "2.10.0",
-    "pushrocks": "1.0.25"
+    "npmts": "^3.3.2"
   }
 }

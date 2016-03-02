@@ -1,9 +1,9 @@
-/// <reference path="./typings/tsd.d.ts" />
+/// <reference path="./typings/main.d.ts" />
 var plugins = {
-    beautylog: require("beautylog")("os")
+    beautylog: require("beautylog")
 }
 
-var c9workspace = {
+let c9workspace = {
     isC9: false,
     name: "undefined",
     owner:  "undefined",
@@ -13,9 +13,16 @@ var c9workspace = {
 
 (function(){
     c9workspace.isC9 = (function(){if (process.env.C9_USER === undefined) {return false} else { return true}})();
+    c9workspace.name = process.env.C9_PROJECT;
     c9workspace.owner = process.env.C9_USER;
-    c9workspace.ideUrl = "https://ide.c9.io/" + process.env.C9_USER + "/" + c9workspace.name;
-    c9workspace.serveUrl = "https://" + c9workspace.name + "-" + c9workspace.owner + ".c9user.io";
+    c9workspace.ideUrl = (function(){
+        if(c9workspace.isC9){
+            "https://ide.c9.io/" + process.env.C9_USER + "/" + c9workspace.name;
+        } else {
+            return undefined;
+        }
+    })();
+    c9workspace.serveUrl = process.env.C9_HOSTNAME;
 })();
 
 var c9config = {

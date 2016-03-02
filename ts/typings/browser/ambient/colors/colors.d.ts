@@ -1,3 +1,5 @@
+// Compiled using typings@0.6.9
+// Source: https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/40c60850ad6c8175a62d5ab48c4e016ea5b3dffe/colors/colors.d.ts
 // Type definitions for Colors.js 0.6.0-1
 // Project: https://github.com/Marak/colors.js
 // Definitions by: Bart van der Schoor <https://github.com/Bartvds>
