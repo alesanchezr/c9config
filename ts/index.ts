@@ -17,7 +17,7 @@ let c9workspace = {
     c9workspace.owner = process.env.C9_USER;
     c9workspace.ideUrl = (function(){
         if(c9workspace.isC9){
-            "https://ide.c9.io/" + process.env.C9_USER + "/" + c9workspace.name;
+            return "https://ide.c9.io/" + process.env.C9_USER + "/" + c9workspace.name;
         } else {
             return undefined;
         }
